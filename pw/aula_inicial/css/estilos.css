@@ -1,0 +1,72 @@
+.container{
+    margin: 10px;
+    width: 500px;
+    height: 410px;
+    background-color: rgb(194, 216, 216);
+    margin-left: 18%;
+}
+.herder{
+    height: 30px;
+    background-color:brown;
+}
+.nav{
+    position: sticky;
+    margin-top: 10px;
+    background-color: blue;
+    position: fixed;
+    position: sticky;
+    width: 100%;
+    
+    
+}
+
+.nav li{
+    display: inline-block;
+    width: 30px;
+    height: 10px;
+    position: relative;
+    left: 65%;
+
+   
+    background-color: aliceblue;
+    
+}
+.coluna{
+    margin-top: 10px;
+    display: flex;
+
+}
+.article{
+    width: 350px;
+    height: 300px;
+    background-color:chartreuse;
+}
+
+.article div{
+   
+    width: 200px;
+    height: 30px;
+    margin :30px;
+    background-color: antiquewhite;
+}
+.aside{
+    margin-left: 10px;
+    width: 150px;
+    height: 300px;
+    background-color: crimson;
+}
+.aside div{
+    width: 100px;
+    height: 30px;
+    margin :30px;
+    background-color: antiquewhite; 
+}
+
+.footer{
+
+   
+    margin-top: 10px;
+    background-color: darkblue;
+    color: wheat;
+    margin-bottom: 0%;
+}

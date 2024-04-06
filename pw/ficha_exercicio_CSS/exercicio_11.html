@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gráfico CSS com display: grid</title>
+
+<style>
+
+    .chart-container {
+        display: grid;
+        grid-template-columns: repeat(5, 30px); /* 5 colunas com largura igual */
+        grid-template-rows: repeat(10, 50px); /* 10 linhas com altura de 50px */
+        gap: 2px; /* Espaçamento entre as células */
+        background-color: #f0f0f0;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .bar {
+        background-color: #007bff;
+        transition: height 0.5s ease; /* Animação da altura */
+    }
+
+    /* Defina a altura das barras aqui */
+    .bar:nth-child(1) { height: 50px; }
+    .bar:nth-child(2) { height: 75px; }
+    .bar:nth-child(3) { height: 50px; }
+    .bar:nth-child(4) { height: 80px; }
+    .bar:nth-child(5) { height: 95px; }
+
+    /* Defina cores ou estilos diferentes para as barras, se necessário */
+</style>
+</head>
+<body>
+
+<div class="chart-container">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  
+</div>
+
+</body>
+</html>

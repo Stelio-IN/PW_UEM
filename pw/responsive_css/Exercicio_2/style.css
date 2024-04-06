@@ -1,0 +1,155 @@
+/* Estilos para computadores */
+@media only screen and (min-width: 1024px) {
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  .celular{
+    display: none;
+  }
+  .nav {
+    background-color: white;
+    color: black;
+    display: flex;
+    margin-bottom: 5px;
+    height: 40px;
+  }
+
+  .logo {
+    font-size: 24px;
+    background: gray;
+    margin-right: 10px;
+  }
+
+  .nav .menu-container {
+    flex-grow: 1; /* Isso fará com que a div ocupe todo o espaço restante */
+  }
+
+  .nav ul {
+    height: 40px;
+    background: rgb(91, 108, 185);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .nav li {
+    font-size: 24px;
+  }
+  .lista {
+    display: block;
+    width: 100%;
+  }
+
+  /* Estilos para a seção de conteúdo */
+  section {
+    background: blue;
+    height: 600px;
+    width: 100%;
+  }
+}
+
+/* Estilos para tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  * {
+    padding: 0px;
+    margin: px;
+  }
+
+  .celular{
+    display: none;
+  }
+
+  .nav {
+    background-color: white;
+    color: black;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  .logo {
+    font-size: 24px;
+    background: gray;
+    margin-bottom: 5px;
+  }
+
+  .nav .menu-container {
+    flex-grow: 1; /* Isso fará com que a div ocupe todo o espaço restante */
+  }
+
+  .nav ul {
+    background: rgb(91, 108, 185);
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .nav li {
+    font-size: 24px;
+  }
+  .lista {
+    display: block;
+    width: 100%;
+  }
+
+  /* Estilos para a seção de conteúdo */
+  section {
+    background: blue;
+    height: 500px;
+    width: 100%;
+  }
+}
+
+/* Estilos para smartphones */
+@media only screen and (max-width: 767px) {
+  .nav {
+
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column; /* Organiza os itens em uma coluna */
+   margin-bottom: 10px;
+  }
+
+  .logo {
+    font-size: 24px;
+    background: gray;
+    margin-bottom: 10px; /* Espaçamento abaixo do logo */
+  }
+
+  .lista {
+    display: none;
+  }
+
+  .nav ul {
+    display: none;
+   
+  }
+  .mobile-menu div {
+    background: rgb(91, 108, 185);
+    width: 32px;
+    height: 2px;
+    background: black;
+    margin: 8px;
+  }
+  .celular{
+    display: flex;
+    margin-bottom: 5px;
+    background: rgb(91, 108, 185);
+    justify-content: center;
+  }
+  section {
+    background: blue;
+    height: 500px;
+    width: 100%;
+  }
+  .menu{
+    margin-top: 10px;
+  }
+}

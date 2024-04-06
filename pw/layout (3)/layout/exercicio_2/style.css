@@ -1,0 +1,43 @@
+.container {
+  margin-left: 10%;
+  width: 800px;
+  height: 500px;
+  overflow-x: auto;
+  position: absolute;
+}
+.azul_fixo {
+  position: fixed;
+  z-index: 2;
+  background-color: rgb(98, 160, 218);
+  width: 200px;
+  height: 500px;
+}
+.form_fixo {
+  background-color: rgb(164, 164, 164);
+  position: fixed;
+  bottom: 100px;
+  left: 650px;
+  width: 250px;
+  padding: 10px;
+  height: 300px;
+  z-index: 3;
+}
+input {
+  margin-left: 20px;
+  width: 200px;
+  height: 40px;
+  margin-top: 10px;
+}
+textarea {
+  margin-left: 20px;
+  width: 200px;
+  height: 100px;
+  margin-top: 10px;
+}
+.role {
+  position: relative;
+  padding: 10px;
+  width: 800px;
+  height: 1000px;
+  background-color: rgb(246, 185, 149);
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <!-- Exercicio_1 -->
+    <h1 style="color: blue; margin-top: 70px;">Titulo</h1>
+    <p style="font-size: 16px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia sapiente cupiditate, inventore error aliquid quis minima dignissimos facere provident cum eius, soluta dolores dolor, nesciunt deserunt odio. Et, facilis necessitatibus.</p>
+    <a href="#">Link</a>
+
+<!-- Exercicio_2 -->
+<ul style="background: rgb(180, 179, 179); list-style: disc;">
+    <li style=" margin-top: 10px; margin-bottom: 10px;">item1</li>
+    <li style=" margin-top: 10px; margin-bottom: 10px;">item1</li>
+    <li style=" margin-top: 10px; margin-bottom: 10px;">item1</li>
+    <li style=" margin-top: 10px; margin-bottom: 10px;">item1</li>
+    <li style=" margin-top: 10px; margin-bottom: 10px;">item1</li>
+</ul>
+
+<!-- Exercicio_3-->
+
+    <div style="display: flex; margin-bottom: 20px;">
+        <img src="img.jpeg" alt="" style="width: 200px;">
+        <p style="color: brown;caption-side:inherit">legenda</p>
+    </div>
+
+    <!--Exercicio_4-->
+    <button style="background: green; color: white; border-radius: 10px;">Clique Aqui</button>
+
+    <!--Exercicio_5-->
+    <div style="display: flex;">
+        <div style="order: 0;">
+            <h1>Tutulo</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus nam corrupti mollitia maxime tempore quam? Eos itaque quisquam incidunt neque. Laboriosam fugiat iusto quaerat doloremque provident distinctio eum eos cum.</p>
+        </div>
+        <div style="order: 1;">
+            <img src="img.jpeg" alt="">
+        </div>
+    </div>
+
+    <!-- Exercicio_6-->
+
+    <style>
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        .nav{
+            position:fixed;
+            top: 0px;
+            background: black;
+            color: white;
+           width: 100%;
+        }
+        .nav li{
+            display: inline-block;
+            margin-right: 20px
+           
+        }
+        .nav li:hover{
+           color: aqua;
+        }
+    </style>
+
+    <nav class="nav">
+        <ul >
+         
+            <li style="margin-left: 300px;">Intem_1</li>
+            <li>Intem_2</li>
+            <li>Intem_3</li>
+            <li>Intem_4</li>
+            <li>Intem_5</li>
+        </ul>
+    </nav>
+
+    <!-- Exercicio_7-->
+    <form action="#" style="margin-top: 30px;">
+        <label for="">Nome:</label>
+        <input  type="text" placeholder="Stelio Acacio Mondlane" style="width: 200px;">
+        <button style="background: blue; border-radius: 20px;">Submit</button>
+    </form>
+
+    <!-- Exercicio_8-->
+        <style>
+            @keyframes aparecerDesaparecer {
+                0% { opacity: 0; } /* Começa com a opacidade 0 (invisível) */
+                50% { opacity: 1; } /* Chega a opacidade 1 (totalmente visível) na metade da animação */
+                100% { opacity: 0; } /* Retorna à opacidade 0 no final (invisível novamente) */
+            }
+            
+            .elemento{
+                animation: aparecerDesaparecer 4s ease-in-out infinite; /* Aplica a animação ao elemento */
+            }
+        </style>
+
+        <div class="elemento">
+            <img src="img.jpeg" alt="">
+        </div>
+    
+</body>
+</html>

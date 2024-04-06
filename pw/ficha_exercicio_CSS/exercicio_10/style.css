@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 3000px;
+  background-color: rgb(113, 126, 126);
+}
+
+.parallax-container {
+  background-image: url("/exercicio_1_8/img.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.content {
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.content h1 {
+  font-size: 3em;
+}
+
+.content p {
+  font-size: 1.2em;
+}

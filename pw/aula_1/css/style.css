@@ -1,0 +1,65 @@
+h1 {
+    color: blue;
+}
+
+p {
+    font-size: 16px;
+}
+
+a {
+    text-decoration: underline;
+}
+ul {
+    background-color: #ccc;
+    list-style: disc;
+    margin: 10px 0;
+}
+img {
+    float: left;
+    width: 200px;
+}
+
+#texto {
+
+    color: brown;
+}
+
+button {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+}
+
+.container {
+    display: flex;
+}
+
+.coluna1 {
+    width: 50%;
+}
+
+.coluna2 {
+    width: 50%;
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu li:hover {
+    background-color: gray;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form id="meuFormulario"
+      style="border-radius: 5px; width: 300px; height: 450px; margin: 0 auto; border: 3px solid #ccc;"
+    >
+      <h1>Contact Form</h1>
+      <p>Connect with us</p>
+      <input type="text" name="name" id="name" placeholder="Your name" /> <br />
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Your Email Address"
+      /><br />
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        placeholder="Your Phone Number"
+      /><br />
+      <textarea
+        name="message"
+        id="message"
+        cols="30"
+        rows="10"
+        placeholder="Type your message here..."
+      ></textarea
+      ><br />
+      <button type="submit" onclick="enviarForm()">Submit</button>
+      <script src="teste.js"></script>
+    </form>
+  </body>
+</html>

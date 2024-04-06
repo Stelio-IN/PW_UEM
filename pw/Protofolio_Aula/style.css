@@ -1,0 +1,72 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    background-color: rgba(0, 0, 0, 0.5); /* Adicione um fundo semi-transparente para a barra de navegação */
+}
+
+.nav a {
+    margin: 15px;
+    text-decoration: none;
+    color: white; 
+}
+
+.nav div {
+    margin: 15px;
+    color: white;
+    margin-right: 50%; 
+}
+
+.primeira {
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+    overflow-y: auto;
+    position: relative;
+    height: 600px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(section_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.texto_primeira {
+    padding: 100px 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+.segunda {
+    height: 1000px;
+    width: 100%;
+    background: antiquewhite;
+    /* Adicione um padding-top igual à altura da barra de navegação para evitar que o conteúdo seja obscurecido pela barra de navegação fixa */
+    padding-top: 60px; /* Ajuste conforme necessário */
+}
+/*
+@media(min-width: 450px) and (max-width: 768px){
+    *{
+        background-color: red;
+        color: aqua;
+    }
+}
+
+*/
+@media (min-width: 768px) {
+    body {
+      background: black;
+    }
+  }

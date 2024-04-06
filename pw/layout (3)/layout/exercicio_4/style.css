@@ -1,0 +1,52 @@
+.container{
+    width: 800px;
+    height: 100%;
+   padding: 20px;
+   margin-left: 3%;
+   
+
+}
+
+.nav{
+    width: 750px;
+    padding: 20px;
+    height: 40px;
+    margin-left: 10px;
+    background-color: #CC0000;
+}
+.flex{
+    display: flex;
+}
+.div_azul{
+    margin-left: 2%;
+    margin-top: 10px;
+    margin-right: 1%;
+    width: 200px;
+    height: 500px;
+    background-color: #00A0B0;
+}
+.div_vermelha{
+    margin-top: 10px;
+    margin-left: 1%;
+    width: 400px;
+    height: 500px;
+    
+}
+.div1{
+    background-color: red;
+    width: 200px;
+    margin-right: 10px;
+    height: 300px;
+}
+
+.div_azul2{
+  width: 400px;
+  height: 90px;
+  margin-top: 10px;
+  background-color: #3366FF;
+}
+a{
+    font-size: 30px;
+   color: white;
+   text-decoration:dotted; 
+}

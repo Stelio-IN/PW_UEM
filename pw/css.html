@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="tabela_1">
+        <p>Este é um parágrafo dentro da div.</p>
+        <p>Este é outro parágrafo dentro da div.</p>
+        <p id="meu-paragrafo">Este é um parágrafo especial.</p>
+      </div>
+
+    <div class="box box1">
+        <h1>Caixa 1</h1>
+    </div>
+    <div class="box box2">
+        <h1>Caixa 2</h1>
+    </div>
+
+    <style>
+        .tabela_1 p:nth-child(2){
+            color: aquamarine;
+        }
+        .box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+    text-align: center;
+}
+
+.box1 {
+    background-color: red;
+    position: absolute;
+    z-index: 2;
+}
+
+.box2 {
+    background-color: blue;
+    position: absolute;
+    z-index: 1;
+}
+    </style>
+</body>
+</html>

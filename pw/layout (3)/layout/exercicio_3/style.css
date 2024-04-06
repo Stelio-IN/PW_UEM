@@ -1,0 +1,19 @@
+.container{
+    background-color: rgb(128, 0, 120);
+    position: relative;
+    border: solid 10px black;
+    margin-left: 5%;
+    width: 600px;
+    height: 500px;
+    padding: 10px;
+    display: flex;
+}
+
+div{
+    border: solid 10px black;
+    background-color: rgb(255, 165, 0);
+    height: 450px;
+    width: 150px;
+    margin-left: 20px;
+
+}
